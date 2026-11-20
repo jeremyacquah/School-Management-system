@@ -1,0 +1,16 @@
+{
+  "short_name": "Greenwood SMS",
+  "name": "Greenwood Academy Management System",
+  "icons": [
+    {
+      "src": "/logo.svg",
+      "type": "image/svg+xml",
+      "sizes": "192x192 512x512"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#102a43",
+  "theme_color": "#102a43",
+  "display": "standalone",
+  "orientation": "any"
+}

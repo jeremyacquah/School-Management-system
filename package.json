@@ -1,0 +1,31 @@
+{
+  "name": "greenwood-school-management-system",
+  "version": "2.0.0",
+  "description": "Cross-Platform Desktop & Mobile School Management System with Offline Sync & RBAC",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "seed": "node backend/seed.js",
+    "test": "node backend/test_api.js",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "build:frontend": "cd frontend && npm run build",
+    "desktop": "node frontend/electron/run.cjs",
+    "desktop:build": "cd frontend && npm run electron:build",
+    "mobile:sync": "cd frontend && npx cap sync",
+    "mobile:open:android": "cd frontend && npx cap open android",
+    "mobile:open:ios": "cd frontend && npx cap open ios"
+  },
+  "keywords": [
+    "school-management",
+    "offline-sync",
+    "electron-desktop",
+    "capacitor-mobile",
+    "parent-portal",
+    "attendance",
+    "grades",
+    "fees-receipts"
+  ],
+  "author": "Google DeepMind Assistant & Greenwood Academy",
+  "license": "MIT"
+}
